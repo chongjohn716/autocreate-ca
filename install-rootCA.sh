@@ -1,4 +1,4 @@
-[ -d /root/ca ] || mkdir root;
+[ -d /root/ca ] || mkdir /root/ca;
 cp cnf/root-ca /root/ca/openssl.cnf
 cd /root/ca;
 mkdir certs crl newcerts private;
